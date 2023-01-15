@@ -2,9 +2,10 @@
 
 /***** Variablen 01 *******/
 
-/** 
- * 
- *  Block-Kommentar
+/** Block-Kommentar 
+ *  (STRG + # = in einen Kommentar umwandeln und zurück)
+ *  (STRG + S = Speichern)
+ *  
  * 
 */
 
@@ -22,7 +23,7 @@
 // console.log(familyName);
 // console.log(firstName + " " + familyName);
 
-/* JS ist eine untypiesierte Sprache! | untyped */
+/* JavaScript ist eine untypiesierte Sprache! | untyped */
 
 // let test;
 // test = "hallo";
