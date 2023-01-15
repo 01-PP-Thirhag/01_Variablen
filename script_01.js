@@ -34,6 +34,6 @@
 
 /*********** 03aKonstanten ***********/
 
-const test = "Hallo"; // Variable mitt Konstantem inhalt
+const test = "Hallo"; // Variable mit Konstantem inhalt
 // test = "Hallo"; // keine neue Zuweisung zur LZ möglich!---> Fehler!!
 console.log("Inhalt: " + test); // AUsgabe
