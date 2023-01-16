@@ -5,8 +5,6 @@
 /** Block-Kommentar 
  *  (STRG + # = in einen Kommentar umwandeln und zurück)
  *  (STRG + S = Speichern)
- *  
- * 
 */
 
 // Konsolen-Ausgaben
@@ -48,3 +46,23 @@
 // const test = "Hallo"; // Variable mit Konstantem inhalt
 // test = "Hallo"; // keine neue Zuweisung zur LZ möglich!---> Fehler!!
 // console.log("Inhalt: " + test); // Ausgabe
+
+/********04 Beispiel - Berechnung****************/
+
+// Deklaration
+const birthYearJohn = 1897
+const birthYearMark = 1977
+let ageJohn, ageMark;
+
+// let year = 2023;
+
+let date = new Date();
+let year = date.getFullYear()
+
+// Berechnung
+ageJohn = year - birthYearJohn;
+ageMark = year - birthYearMark;
+
+console.log(ageJohn);
+console.log(ageMark);
+
