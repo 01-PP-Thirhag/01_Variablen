@@ -54,7 +54,10 @@ const birthYearJohn = 2000;
 const birthYearMark = 1990;
 let ageJohn, ageMark;
 
-let year = 2023;
+// let year = 2023;
+
+let date = new Date();
+let year = date.getFullYear();
 
 // Berechnung
 ageJohn = year - birthYearJohn;
