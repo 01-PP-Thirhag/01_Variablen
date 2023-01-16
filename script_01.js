@@ -50,14 +50,16 @@
 /********04 Beispiel - Berechnung****************/
 
 // Deklaration
-const birthYearJohn = 1897
-const birthYearMark = 1977
+const birthYearJohn = 2000;
+const birthYearMark = 1990;
 let ageJohn, ageMark;
 
-// let year = 2023;
+// // Wertzuweisung
+// ageJohn = 25;
+// ageMark = 30;
 
 let date = new Date();
-let year = date.getFullYear()
+let year = date.getFullYear();
 
 // Berechnung
 ageJohn = year - birthYearJohn;
