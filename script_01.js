@@ -13,33 +13,33 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
-// let firstName; // Deklaration (Definition)
-// firstName = "Peter"; //Wertzuweisung
-// console.log(firstName); // Ausgabe
+let firstName; // Deklaration (Definition)
+firstName = "Peter"; //Wertzuweisung
+console.log(firstName); // Ausgabe
 
-// let familyName = "Mütze";
-// console.log(familyName);
-// console.log(firstName + " " + familyName);
+let familyName = "Mütze";
+console.log(familyName);
+console.log(firstName + " " + familyName);
 
 /***** 03 Deklaration + Wertzuweisung II *******/
 
-// let firstName, familyName; 
-// firstName = prompt("Bitte Vornamen eingeben"); // Wertzuweisung
-// familyName = prompt("Bitte Nachnamen eingeben")
-// console.log(firstName + " " + familyName);// Ausgabe
+let firstName, familyName; 
+firstName = prompt("Bitte Vornamen eingeben"); // Wertzuweisung
+familyName = prompt("Bitte Nachnamen eingeben")
+console.log(firstName + " " + familyName);// Ausgabe
 
-// console.log("Datentyp: " + typeof firstName);
+console.log("Datentyp: " + typeof firstName);
 
 
 /* JavaScript ist eine untypiesierte Sprache! | untyped */
 
-// let test;
-// test = "hallo";
-// test = 2;
-// test = true;
+let test;
+test = "hallo";
+test = 2;
+test = true;
 
-// console.log("Datentyp: " + typeof test);
-// console.log("Inhalt: " + test);
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
 
 /*********** 03aKonstanten ***********/
 
@@ -55,8 +55,8 @@ const birthYearMark = 1990;
 let ageJohn, ageMark;
 
 // // Wertzuweisung
-// ageJohn = 25;
-// ageMark = 30;
+ageJohn = 25;
+ageMark = 30;
 
 let date = new Date();
 let year = date.getFullYear();
